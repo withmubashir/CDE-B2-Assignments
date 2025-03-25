@@ -1,3 +1,5 @@
+# # Question 1
+
 name = input("Enter any name: ")
 value = name.lower()
 total_vowels = 0
@@ -6,3 +8,27 @@ for i in value:
         total_vowels += 1
 
 print(total_vowels)
+
+# Question 2
+
+input = input("Enter any string: ")
+
+uppercase = 0
+lowercase = 0
+digits = 0
+whitespace = 0
+
+for letter in input:
+    if letter.isupper():
+        uppercase += 1
+    elif letter.islower():
+        lowercase += 1
+    elif letter.isdigit():
+        digits += 1
+    elif letter.isspace():
+        whitespace += 1
+
+print(uppercase)
+print(lowercase)
+print(digits)
+print(whitespace)

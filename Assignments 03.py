@@ -35,6 +35,12 @@
 
 # Question 3
 
-revers = input("Enter any Input: ")
-new_revers = revers[-1] + revers[1:-1] + revers[0]
-print(new_revers)
+# revers = input("Enter any Input: ")
+# new_revers = revers[-1] + revers[1:-1] + revers[0]
+# print(new_revers)
+
+# Question 4
+
+revers1 = input("Enter any Input: ")
+new_revers1 = revers1[::-1]
+print(new_revers1)
